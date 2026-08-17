@@ -5,14 +5,15 @@ int main()
 {
 	
 	int number = 50;
-	printf("Let's Start the Number Guuessing Game\n");
-	printf("Created by Nilesh Raut\n");
-	
+   printf("|----------------------------------------|\n");
+   printf("|Let's Start the Number Guuessing Game   |\n");
+   printf("|Created by Nilesh Raut                  |\n");
+   printf("|----------------------------------------|\n");
 
 	do{
-			printf("================\n");
-	printf("Enter Guess A number\n");
-	printf("================\n");
+	printf("|====================|\n");
+	printf("|Enter Guess A number|\n");
+	printf("|====================|\n");
 	
 	scanf("%d", &number);
 	
